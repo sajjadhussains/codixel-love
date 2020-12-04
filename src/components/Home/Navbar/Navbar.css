@@ -1,0 +1,11 @@
+.navbar-button{
+    border:1px solid #15DB91;
+    border-radius: 5px;
+    color:#15DB91;
+    background-color: white;
+    padding:5px 12px;
+    font-size: 17px;
+}
+.nav-item a:visited{
+    color:#15DB91;
+}

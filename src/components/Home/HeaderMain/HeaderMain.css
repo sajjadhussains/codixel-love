@@ -1,0 +1,14 @@
+span{
+    font-size: 45px;
+    font-weight: bold;
+}
+.hire-section{
+    padding-left: 30px;
+}
+.hire-button{
+    background-color: #0CC284;
+    padding:8px 35px;
+    border-radius:5px;
+    border: none;
+    color:white;
+}
