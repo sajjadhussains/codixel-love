@@ -12,7 +12,7 @@ const HeaderMain = () => {
                 <button className="hire-button">Hire Us</button>
            </div>
            <div className="col-md-5 pl-20">
-              <img src={mainpic} alt="" className="img-fluid w-75 "/>
+              <img src={mainpic} alt="" className="img-fluid"/>
            </div>
 
        </main>
