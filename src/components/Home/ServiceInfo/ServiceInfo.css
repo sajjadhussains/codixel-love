@@ -1,0 +1,48 @@
+.service-info{
+    margin-left:45px;
+    margin-bottom: 20px;
+   
+}
+.service-first{
+    border-radius:32px 0px 32px 32px;
+    border:1px solid #E9E9E9;
+    height: 254px;
+    width:500px;
+   
+}
+.service-second{
+    border-radius: 0px 32px 32px 32px;
+    border:1px solid #E9E9E9;
+    height: 254px;
+    width:500px;
+}
+.service-third{
+    border-radius:32px 32px 0px 32px;
+    border:1px solid #E9E9E9;
+    height: 254px;
+    width:500px;
+}
+.service-fourth{
+    border-radius:  32px 32px 32px 0px;
+    border:1px solid #E9E9E9;
+    height: 254px;
+    width:500px;
+}
+
+.round-button{
+    background-color: #15DB91;
+    border: none;
+    color: white;
+    padding: 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:50%;
+}
+.round-button-div{
+    position: relative;
+    top: 100px;
+}

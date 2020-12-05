@@ -22,7 +22,7 @@ const BuisnessInfo = () => {
         }
     ]
     return (
-       <section className="row buisness-info">
+       <section className="row buisness-info w-75 ml-5 mt-5 mb-5 pl-5">
            {
                infosData.map(info=><InfoCard info={info}></InfoCard>)
            }

@@ -16,16 +16,18 @@ const Navbar = () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item active">
-        <a style={{color:'#15DB91',fontSize:'17px'}} className="nav-link mr-5 nav-item" href="#">Shop</a>
       </li>
       <li className="nav-item">
-        <a style={{color:'#15DB91',fontSize:'17px'}}className="nav-link mr-5" href="#">Project</a>
+        <a style={{color:'#15DB91',fontSize:'18px'}}className="nav-link mr-5" href="#">Shop</a>
       </li>
       <li className="nav-item">
-        <a style={{color:'#15DB91',fontSize:'17px'}} className="nav-link mr-3 nav-item" href="#">Contact</a>
+        <a style={{color:'#15DB91',fontSize:'18px'}}className="nav-link mr-5" href="#">Project</a>
       </li>
       <li className="nav-item">
-        <button className="navbar-button">Get a Quote</button>
+        <a style={{color:'#15DB91',fontSize:'18px'}} className="nav-link mr-3 nav-item" href="#">Contact</a>
+      </li>
+      <li className="nav-item">
+        <button className="navbar-button" >Get a Quote</button>
       </li>
     </ul>
   </div>
