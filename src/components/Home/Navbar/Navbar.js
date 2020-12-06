@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light container">
+            <nav className="navbar navbar-expand-lg navbar-light container sticky-top">
   <a className="navbar-brand" href="#">
       <img src={codixel} alt=""/>
   </a>
@@ -24,7 +24,7 @@ const Navbar = () => {
         <a style={{color:'#15DB91',fontSize:'18px'}}className="nav-link mr-5" href="#">Project</a>
       </li>
       <li className="nav-item">
-        <a style={{color:'#15DB91',fontSize:'18px'}} className="nav-link mr-3 nav-item" href="#">Contact</a>
+        <a style={{color:'#15DB91',fontSize:'18px'}} className="nav-link mr-5 nav-item" href="#">Contact</a>
       </li>
       <li className="nav-item">
         <button className="navbar-button" >Get a Quote</button>

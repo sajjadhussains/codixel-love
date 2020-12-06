@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import IdeaSection from '../IdeaSection/IdeaSection';
 import OurWork from '../OurWork/OurWork';
@@ -11,6 +12,7 @@ const Home = () => {
            <Services></Services>
            <OurWork></OurWork>
            <IdeaSection></IdeaSection>
+           
         </div>
     );
 };

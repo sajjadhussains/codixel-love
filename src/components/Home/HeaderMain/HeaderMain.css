@@ -11,6 +11,6 @@ span{
     border-radius:6px;
     border: none;
     color:white;
-    box-shadow: 2px 5px ;
+    box-shadow:0 5px 15px -5px #333;
    
 }
