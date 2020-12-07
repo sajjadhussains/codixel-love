@@ -7,13 +7,13 @@ const ideaStyleButton={
 }
 const buttonStyleDiv={
     position:'relative',
-    top:'10px',
+    bottom:'10px',
     left:'200px'
 }
 
 const IdeaSection = () => {
     return (
-        <div>
+        <div className="container">
            <div style={{height:'249px',backgroundColor:'#15DB91',marginTop:'200px',borderRadius:'19px'}}className="row d-flex align-items-center justify-content-center">
            <div className="col-md-7">
              <h5 style={{fontSize:'33px',color:'white'}}className="text-center pt-4">Let's visualize your awesome idea with Best Expertise</h5>

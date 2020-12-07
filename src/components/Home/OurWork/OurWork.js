@@ -1,10 +1,10 @@
 import React from 'react';
-import group6 from '../../../images/group6.svg'
+import work1 from '../../../images/work1.png'
 
 const OurWork = () => {
     return (
-        <div style={{height:'611px'}}>
-            <p className="text-center mt-5" style={{ fontSize: '40px' }}>Recent Work</p>
+        <div style={{height:'611px'}} className="container">
+            <p className="text-center mt-5 mb-5" style={{ fontSize: '40px' }}>Recent Work</p>
             <div className="d-flex justify-content-center align-items-center row">
                 <div className="col-md-5">
                     <p style={{fontSize:'32px',color:'#15DB91'}}>Project Name</p>
@@ -21,21 +21,21 @@ const OurWork = () => {
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={group6} class="d-block w-100" alt="..."/>
+    <img src={work1} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={group6}class="d-block w-100" alt="..."/>
+      <img src={work1}class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={group6} class="d-block w-100" alt="..."/>
+      <img src={work1} class="d-block w-100" alt="..."/>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <a class="carousel-control-prev pl-5" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <a class="carousel-control-next pr-5" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span style={{color:'green'}}class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>

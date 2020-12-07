@@ -5,7 +5,9 @@
     background-color: white;
     padding:5px 12px;
     font-size: 18px;
+    font-family: Sarabun,Regular;
 }
 .nav-item a:visited{
     color:#15DB91;
 }
+.navbar-button:focus {outline:none;} ::-moz-focus-inner {border:0;}

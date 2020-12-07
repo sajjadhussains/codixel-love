@@ -25,7 +25,7 @@ const Services = () => {
         }
     ]
     return (
-        <div>
+        <div className="container">
             <p style={{fontSize:'40px'}} className="text-center">What we do</p>
             <div className="row" style={{marginTop:'50px'}}>
                 {

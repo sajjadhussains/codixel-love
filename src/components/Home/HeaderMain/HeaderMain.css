@@ -1,16 +1,26 @@
-span{
+.visual{
     font-size: 50px;
     font-weight: bold;
 }
-.hire-section{
-    padding-left: 30px;
-}
 .hire-button{
     background-color: #0CC284;
-    padding:8px 35px;
+    padding:13px 55px 14px 57px;
     border-radius:6px;
     border: none;
     color:white;
     box-shadow:0 5px 15px -5px #333;
-   
+    font-size: 20px;
+}
+.hire-button:focus {outline:none;} ::-moz-focus-inner {border:0;}
+@media screen and(max-width:600px){
+    .main-header{
+        margin-bottom: 800px;
+        
+    }
+}
+.hire-button:hover{
+    background-color: #4cc9f0;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+    -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+    box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
 }

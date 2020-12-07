@@ -41,9 +41,12 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius:50%;
+    height: 62px;
+    width: 64px;
     box-shadow:0 5px 15px -5px #333;
 }
 .round-button-div{
     position: relative;
     top: 100px;
 }
+.round-button:focus {outline:none;} ::-moz-focus-inner {border:0;}
